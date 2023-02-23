@@ -14,7 +14,7 @@ $url="https://dominio.com/login";
 $correo="alanescudero014@gmail.com";
 $pass="12345";
 $nombre="Alan";
-$body = "Hola $nombre, gracias por colaborar con está evaluación, la contraseña para ingresar es: $pass \n Ingresa la siguiente url para comenzar la evaluación: $url";
+$body = "Hola $nombre, gracias por colaborar con está evaluación, la contraseña para ingresar es: $pass. <br>Ingresa la siguiente url para comenzar la evaluación: $url";
 
 $body= str_replace("#URL#", $url, $body);
 $body= str_replace("#USER#", $correo, $body);	
